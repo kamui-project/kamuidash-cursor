@@ -16,7 +16,7 @@ This repository packages the KamuiDash remote MCP connection as a Cursor plugin.
 
 ## Install for local evaluation
 
-This plugin has not yet been submitted to the Cursor Marketplace. Cursor end-to-end authentication and tool execution are pending verification; see the [submission checklist](docs/marketplace.md).
+The Cursor Marketplace publisher application was submitted on 2026-10-23 JST and receipt was confirmed. Marketplace approval and listing are pending. Cursor end-to-end authentication and tool execution are pending verification; see the [submission checklist](docs/marketplace.md).
 
 Following [Cursor's local plugin instructions](https://cursor.com/docs/plugins#test-plugins-locally):
 

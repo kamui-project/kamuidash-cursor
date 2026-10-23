@@ -6,7 +6,7 @@ Plugin identifier: `kamuidash`
 
 MCP endpoint: `https://api.kamui-platform.com/mcp`
 
-Submission status: **Not submitted.** Repository preparation does not establish Cursor compatibility or Marketplace approval.
+Submission status: **Submitted; receipt confirmed on 2026-10-23 JST.** The page displayed “Thanks for applying” and “We've received your submission.” Marketplace approval and listing remain pending; submission does not establish Cursor compatibility.
 
 [Publisher application draft](publisher-application.md) · [Cursor verification and reviewer walkthrough](reviewer-walkthrough.md)
 
@@ -18,8 +18,9 @@ Submission status: **Not submitted.** Repository preparation does not establish 
 - [x] English and Japanese setup, account requirements, pricing, and troubleshooting documentation.
 - [x] MIT license for the plugin files.
 - [x] No credentials or private account/project identifiers included.
-- [ ] Confirm identifier availability during submission.
-- [ ] Complete the Cursor checks below before submission.
+- [x] Submit the publisher application as SIMD LLC with handle `kamuidash` and confirm receipt.
+- [ ] Confirm final publisher namespace approval and Marketplace listing.
+- [ ] Complete the remaining Cursor checks below; their pending status was disclosed in the submitted description.
 
 ## Public endpoint observations
 
@@ -36,7 +37,7 @@ These observations do not validate client registration, browser consent, token e
 
 ## Application and local environment
 
-On 2026-10-23 JST, the owner completed Cursor sign-in and the publisher application was inspected and filled up to the final Submit Application button. The organization name and plugin author are SIMD LLC; the description identifies this as a company submission with the owner-approved contact email. The fixed Owner remains an individual account. No server-side draft saving is confirmed. No application or terms acceptance has been submitted. See the application draft for the prepared public field values.
+On 2026-10-23 JST, the owner completed Cursor sign-in and the publisher application was inspected and filled and submitted after the owner explicitly approved the Publisher Terms. The organization name and plugin author are SIMD LLC; the description identifies this as a company submission with the owner-approved contact email. The fixed Owner remains an individual account. The page confirmed receipt with “Thanks for applying.” No approval, review deadline, or application identifier was displayed. See the application draft for the prepared public field values.
 
 No Cursor application was found in `/Applications` or the user's `Applications` directory during preparation. This does not rule out another installation location. Local plugin execution has not been attempted.
 
@@ -53,9 +54,9 @@ Record the Cursor version, date, and results without publishing account identifi
 - [ ] With approval, redeploy the same app and verify the resulting deployment.
 - [ ] Record any capabilities not exercised; do not claim that all tools were tested.
 
-## Submit
+## Review status
 
-After completing the checks, sign in at https://cursor.com/marketplace/publish and submit this repository URL. Cursor manually reviews submissions and updates. No review turnaround or acceptance is guaranteed here.
+The accepted application used Organization name `SIMD LLC`, handle `kamuidash`, and this public repository URL. The confirmation page said the plugin would be reviewed. Do not submit another application for the same package merely because the review has not completed. Cursor manually reviews submissions and updates; no review turnaround or acceptance is guaranteed here.
 
 ## Official references
 

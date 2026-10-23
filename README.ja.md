@@ -16,7 +16,7 @@ Cursorから[KamuiDash](https://dashboard.kamui-platform.com/)に接続し、ア
 
 ## ローカルで試す
 
-Cursor Marketplaceへの申請は未実施です。Cursor内でのOAuth認証とツール実行は未検証です。現在の状況は[申請チェックリスト](docs/marketplace.md)に記載しています。
+2026-10-23 JSTにCursor Marketplaceの公開者申請を提出し、受付完了を確認しました。掲載承認は審査待ちです。Cursor内でのOAuth認証とツール実行は未検証です。現在の状況は[申請チェックリスト](docs/marketplace.md)に記載しています。
 
 [Cursor公式のローカル検証手順](https://cursor.com/docs/plugins#test-plugins-locally)に沿って配置します。
 

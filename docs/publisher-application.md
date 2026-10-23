@@ -1,13 +1,13 @@
-# Publisher application draft
+# Publisher application record
 
-Prepared on 2026-10-23 JST. The signed-in publisher application has been inspected and filled through the step immediately before submission. The Submit Application button has not been clicked. No server-side draft saving has been confirmed; retain this document as the public copy of the prepared values.
+Submitted on 2026-10-23 JST after the owner explicitly approved the Publisher Terms. The confirmation page displayed “Thanks for applying” and confirmed receipt. Approval and Marketplace listing are pending. This document records the public field values; private contact details are omitted.
 
 ## Public information
 
-| Item | Draft value |
+| Item | Submitted value |
 | --- | --- |
 | Organization name | SIMD LLC |
-| Organization handle | `kamuidash` (entered; availability not yet confirmed) |
+| Organization handle | `kamuidash` (submitted; final namespace approval pending) |
 | Plugin name | KamuiDash |
 | Plugin identifier | `kamuidash` |
 | Version | `1.0.0` |
@@ -20,13 +20,13 @@ Prepared on 2026-10-23 JST. The signed-in publisher application has been inspect
 | Terms | https://dashboard.kamui-platform.com/en/documents/terms-of-use |
 | Pricing | https://dashboard.kamui-platform.com/en/documents/spec-price-overview |
 
-The contact email was explicitly supplied by the owner and entered in the private application; it is not copied into this public document. Owner is a disabled field and the form displays “Submitting as an individual.” The organization display fields do not change the underlying account owner. The form states that clicking Submit Application acknowledges agreement to the Publisher Terms; no acceptance has been submitted.
+The contact email was explicitly supplied by the owner and entered in the private application; it is not copied into this public document. Owner is a disabled field and the form displays “Submitting as an individual.” The organization display fields do not change the underlying account owner. The form states that clicking Submit Application acknowledges agreement to the Publisher Terms; the owner explicitly approved those terms before the application was submitted.
 
 ## Short description
 
 Inspect apps, deployment status, and logs, and deploy GitHub-backed apps on KamuiDash.
 
-## Prepared form description
+## Submitted form description
 
 The form description starts with a company-submission note naming **SIMD LLC** and the owner-approved review contact email. The contact address is omitted from this public copy.
 
@@ -56,10 +56,10 @@ No Cursor demo video has been recorded for this package. Prior tests in other MC
 
 ## Final submission
 
-The inspected form requests Organization name, Organization handle, Contact email, Logotype URL, Description, GitHub repository, and Website URL, and displays a fixed Owner. It does not currently show a demo-video or reviewer-credentials field. Review all values and the [Publisher Terms](https://cursor.com/marketplace-publisher-terms) before submission. Cursor-specific end-to-end checks remain pending. This draft does not accept terms or submit an application.
+The inspected form requests Organization name, Organization handle, Contact email, Logotype URL, Description, GitHub repository, and Website URL, and displays a fixed Owner. It does not currently show a demo-video or reviewer-credentials field. Review all values and the [Publisher Terms](https://cursor.com/marketplace-publisher-terms) before submission. Cursor-specific end-to-end checks remain pending. Submission was completed after explicit owner approval; the confirmation page established receipt, not approval.
 
 ## Company submission and fixed Owner field
 
 The owner requested submission for **SIMD LLC**. Organization name and the plugin manifest author use the English display name SIMD LLC. The description explicitly states that the company is submitting KamuiDash. The fixed Owner field still shows the signed-in individual account; entering a company name does not change account ownership.
 
-Cursor staff recommended identifying the company and preferred contact in the description when the form cannot switch Owner to a company. See the [official forum response](https://forum.cursor.com/t/cursor-plugin-submit-as-company-not-individual/156274). The form remains unsubmitted.
+Cursor staff recommended identifying the company and preferred contact in the description when the form cannot switch Owner to a company. See the [official forum response](https://forum.cursor.com/t/cursor-plugin-submit-as-company-not-individual/156274). The application has been submitted and receipt confirmed; the fixed individual Owner was not changed by the company display name.
