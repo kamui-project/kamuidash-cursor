@@ -6,7 +6,7 @@ Prepared on 2026-10-23 JST. The signed-in publisher application has been inspect
 
 | Item | Draft value |
 | --- | --- |
-| Organization name | シムディ合同会社 |
+| Organization name | SIMD LLC |
 | Organization handle | `kamui-project` (entered; availability not yet confirmed) |
 | Plugin name | KamuiDash |
 | Plugin identifier | `kamuidash` |
@@ -28,7 +28,7 @@ Inspect apps, deployment status, and logs, and deploy GitHub-backed apps on Kamu
 
 ## Prepared form description
 
-The form description starts with a company-submission note naming **シムディ合同会社** and the owner-approved review contact email. The contact address is omitted from this public copy.
+The form description starts with a company-submission note naming **SIMD LLC** and the owner-approved review contact email. The contact address is omitted from this public copy.
 
 KamuiDash connects Cursor to the apps you own on KamuiDash through a remote MCP server. Inspect projects, apps, deployment status, and logs; discover connected GitHub repositories and branches; and, with explicit confirmation, deploy or update apps, create databases, or configure custom domains.
 
@@ -60,6 +60,6 @@ The inspected form requests Organization name, Organization handle, Contact emai
 
 ## Company submission and fixed Owner field
 
-The owner requested submission for **シムディ合同会社**. Organization name and the plugin manifest author use that exact name. The description explicitly states that the company is submitting KamuiDash. The fixed Owner field still shows the signed-in individual account; entering a company name does not change account ownership.
+The owner requested submission for **SIMD LLC**. Organization name and the plugin manifest author use the English display name SIMD LLC. The description explicitly states that the company is submitting KamuiDash. The fixed Owner field still shows the signed-in individual account; entering a company name does not change account ownership.
 
 Cursor staff recommended identifying the company and preferred contact in the description when the form cannot switch Owner to a company. See the [official forum response](https://forum.cursor.com/t/cursor-plugin-submit-as-company-not-individual/156274). The form remains unsubmitted.
