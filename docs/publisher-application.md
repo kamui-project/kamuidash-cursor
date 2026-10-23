@@ -7,7 +7,7 @@ Prepared on 2026-10-23 JST. The signed-in publisher application has been inspect
 | Item | Draft value |
 | --- | --- |
 | Organization name | SIMD LLC |
-| Organization handle | `kamui-project` (entered; availability not yet confirmed) |
+| Organization handle | `kamuidash` (entered; availability not yet confirmed) |
 | Plugin name | KamuiDash |
 | Plugin identifier | `kamuidash` |
 | Version | `1.0.0` |
