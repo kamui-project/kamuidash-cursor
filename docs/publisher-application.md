@@ -1,37 +1,38 @@
 # Publisher application draft
 
-Prepared on 2026-10-23 JST. The application requires Cursor sign-in. The signed-in form's current fields have not yet been inspected, so these are reusable draft values, not a claim that the form has been completed or saved.
+Prepared on 2026-10-23 JST. The signed-in publisher application has been inspected and filled through the step immediately before submission. The Submit Application button has not been clicked. No server-side draft saving has been confirmed; retain this document as the public copy of the prepared values.
 
 ## Public information
 
 | Item | Draft value |
 | --- | --- |
-| Publisher / brand | Kamui |
+| Organization name | Kamui |
+| Organization handle | `kamui-project` (entered; availability not yet confirmed) |
 | Plugin name | KamuiDash |
 | Plugin identifier | `kamuidash` |
 | Version | `1.0.0` |
 | Repository | https://github.com/kamui-project/kamuidash-cursor |
 | Website | https://dashboard.kamui-platform.com/ |
-| Logo | `assets/logo.png` (512 × 512 PNG) |
+| Logotype URL | https://raw.githubusercontent.com/kamui-project/kamuidash-cursor/main/assets/marketplace-logo.svg |
 | Category, if requested | Developer Tools / Cloud Infrastructure, using the closest available option |
 | Support | https://dashboard.kamui-platform.com/en/inquiry |
 | Privacy policy | https://dashboard.kamui-platform.com/en/documents/privacy-policy |
 | Terms | https://dashboard.kamui-platform.com/en/documents/terms-of-use |
 | Pricing | https://dashboard.kamui-platform.com/en/documents/spec-price-overview |
 
-Use the publisher account and contact details approved by the owner. Do not infer a submission identity from a local Git author or GitHub login.
+The form prefilled the contact email from the signed-in account; it was left unchanged and is not copied into this public document. Owner is a disabled field and the form displays “Submitting as an individual.” The organization display fields do not change the underlying account owner. The form states that clicking Submit Application acknowledges agreement to the Publisher Terms; no acceptance has been submitted.
 
 ## Short description
 
 Inspect apps, deployment status, and logs, and deploy GitHub-backed apps on KamuiDash.
 
-## Description
+## Submitted-form description draft
 
-KamuiDash connects Cursor to the user's KamuiDash account through a remote MCP server. Developers can inspect projects and apps, investigate deployment history and runtime logs, discover connected GitHub repositories and branches, and request app creation or updates from a remote GitHub branch. The service also exposes tools for static sites, databases, and custom domains.
+KamuiDash connects Cursor to the apps you own on KamuiDash through a remote MCP server. Inspect projects, apps, deployment status, and logs; discover connected GitHub repositories and branches; and, with explicit confirmation, deploy or update apps, create databases, or configure custom domains.
 
-The plugin uses browser-based OAuth with the existing KamuiDash service. Access follows the connected account's permissions; the service is not limited to read-only access or a single project. Repository deployment requires the KamuiDash GitHub App to have access to the selected repository. Application secrets and billing settings are managed in the KamuiDash dashboard.
+The plugin uses browser-based OAuth with the existing KamuiDash service. Repository deployments require the KamuiDash GitHub App to have access to the selected repository. Application secrets and billing settings are managed in the KamuiDash dashboard. Resource creation and capacity changes can incur charges under KamuiDash pricing. Deployment requests are asynchronous and must be checked before reporting an app as live.
 
-App and database provisioning or capacity changes can incur charges under KamuiDash pricing. Deployment requests are asynchronous, and users must inspect deployment and runtime status before treating an app as live. The repository includes setup instructions, usage examples, and links to pricing, privacy, terms, and support.
+The public repository includes the Cursor plugin manifest, remote MCP configuration, logo, MIT license, and English/Japanese setup documentation. The MCP health and OAuth discovery endpoints have been checked; Cursor-specific end-to-end authentication and tool execution are pending verification.
 
 ## Suggested use cases
 
@@ -53,4 +54,4 @@ No Cursor demo video has been recorded for this package. Prior tests in other MC
 
 ## Final submission
 
-Confirm the form's exact requested fields after signing in at https://cursor.com/marketplace/publish. Review the [Publisher Terms](https://cursor.com/marketplace-publisher-terms) before agreeing. This draft does not accept terms or submit an application.
+The inspected form requests Organization name, Organization handle, Contact email, Logotype URL, Description, GitHub repository, and Website URL, and displays a fixed Owner. It does not currently show a demo-video or reviewer-credentials field. Review all values and the [Publisher Terms](https://cursor.com/marketplace-publisher-terms) before submission. Cursor-specific end-to-end checks remain pending. This draft does not accept terms or submit an application.

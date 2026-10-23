@@ -14,7 +14,7 @@ Submission status: **Not submitted.** Repository preparation does not establish 
 
 - [x] Cursor-format manifest at `.cursor-plugin/plugin.json`.
 - [x] Remote MCP definition at the repository root (`mcp.json`).
-- [x] Logo committed at `assets/logo.png` and referenced by relative path.
+- [x] Square logo with a white background plate committed at `assets/marketplace-logo.svg` and referenced by relative path. The original PNG is also retained.
 - [x] English and Japanese setup, account requirements, pricing, and troubleshooting documentation.
 - [x] MIT license for the plugin files.
 - [x] No credentials or private account/project identifiers included.
@@ -36,7 +36,7 @@ These observations do not validate client registration, browser consent, token e
 
 ## Application and local environment
 
-On 2026-10-23 JST, the browser reached the publisher application entry point and was redirected to Cursor sign-in. The signed-in form could not yet be inspected or filled. No application or terms acceptance has been submitted.
+On 2026-10-23 JST, the owner completed Cursor sign-in and the publisher application was inspected and filled up to the final Submit Application button. The contact email remained as prefilled; the fixed Owner is an individual account. No server-side draft saving is confirmed. No application or terms acceptance has been submitted. See the application draft for the prepared public field values.
 
 No Cursor application was found in `/Applications` or the user's `Applications` directory during preparation. This does not rule out another installation location. Local plugin execution has not been attempted.
 

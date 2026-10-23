@@ -8,6 +8,12 @@
   "homepage": "https://dashboard.kamui-platform.com/",
   "repository": "https://github.com/kamui-project/kamuidash-cursor",
   "license": "MIT",
-  "keywords": ["kamuidash", "paas", "deployment", "hosting", "mcp"],
-  "logo": "assets/logo.png"
+  "keywords": [
+    "kamuidash",
+    "paas",
+    "deployment",
+    "hosting",
+    "mcp"
+  ],
+  "logo": "assets/marketplace-logo.svg"
 }
