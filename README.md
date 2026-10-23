@@ -76,5 +76,7 @@ Do not include credentials or unredacted logs in public issues. Use the [support
 - [Privacy policy](https://dashboard.kamui-platform.com/en/documents/privacy-policy)
 - [Terms of use](https://dashboard.kamui-platform.com/en/documents/terms-of-use)
 - [Marketplace submission checklist](docs/marketplace.md)
+- [Publisher application draft](docs/publisher-application.md)
+- [Cursor verification walkthrough](docs/reviewer-walkthrough.md)
 
 The plugin files are licensed under [MIT](LICENSE). Use of the hosted KamuiDash service is governed by its terms and pricing. This license does not grant trademark rights to Kamui branding.

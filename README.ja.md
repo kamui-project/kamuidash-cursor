@@ -76,5 +76,7 @@ OAuthサーバーは `full` と `offline_access` スコープを公開してい�
 - [プライバシーポリシー](https://dashboard.kamui-platform.com/en/documents/privacy-policy)
 - [利用規約](https://dashboard.kamui-platform.com/en/documents/terms-of-use)
 - [申請チェックリスト](docs/marketplace.md)
+- [申請文面の下書き（英語）](docs/publisher-application.md)
+- [Cursorでの検証手順（英語）](docs/reviewer-walkthrough.md)
 
 プラグインのファイルには[MITライセンス](LICENSE)を適用します。KamuiDashサービスの利用にはサービスの利用規約・料金が適用されます。このライセンスはKamuiの商標利用権を付与しません。

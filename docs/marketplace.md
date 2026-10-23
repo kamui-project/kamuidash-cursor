@@ -8,6 +8,8 @@ MCP endpoint: `https://api.kamui-platform.com/mcp`
 
 Submission status: **Not submitted.** Repository preparation does not establish Cursor compatibility or Marketplace approval.
 
+[Publisher application draft](publisher-application.md) · [Cursor verification and reviewer walkthrough](reviewer-walkthrough.md)
+
 ## Package checklist
 
 - [x] Cursor-format manifest at `.cursor-plugin/plugin.json`.
@@ -26,8 +28,17 @@ Checked on 2026-10-23 JST using unauthenticated read-only requests:
 - `GET /mcp`: HTTP 200, service health response.
 - `GET /.well-known/oauth-authorization-server`: HTTP 200, advertises authorization, token, registration endpoints, and S256 PKCE.
 - `GET /.well-known/oauth-protected-resource`: HTTP 200, advertises the authorization server and `full` / `offline_access` scopes.
+- Unauthenticated `POST /mcp` requests for `initialize` and `tools/list` using curl: HTTP 401 with a `WWW-Authenticate` challenge pointing to the OAuth resource metadata.
+
+The same unauthenticated POST checks using Python urllib were blocked by Cloudflare with HTTP 403 (error 1010, browser signature). This is a client-dependent observation; Cursor transport compatibility remains unverified. No Cloudflare configuration was changed.
 
 These observations do not validate client registration, browser consent, token exchange, tool discovery, or tool execution in Cursor.
+
+## Application and local environment
+
+On 2026-10-23 JST, the browser reached the publisher application entry point and was redirected to Cursor sign-in. The signed-in form could not yet be inspected or filled. No application or terms acceptance has been submitted.
+
+No Cursor application was found in `/Applications` or the user's `Applications` directory during preparation. This does not rule out another installation location. Local plugin execution has not been attempted.
 
 ## Cursor checks still required
 
