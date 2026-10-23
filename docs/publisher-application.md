@@ -6,7 +6,7 @@ Prepared on 2026-10-23 JST. The signed-in publisher application has been inspect
 
 | Item | Draft value |
 | --- | --- |
-| Organization name | Kamui |
+| Organization name | シムディ合同会社 |
 | Organization handle | `kamui-project` (entered; availability not yet confirmed) |
 | Plugin name | KamuiDash |
 | Plugin identifier | `kamuidash` |
@@ -20,13 +20,15 @@ Prepared on 2026-10-23 JST. The signed-in publisher application has been inspect
 | Terms | https://dashboard.kamui-platform.com/en/documents/terms-of-use |
 | Pricing | https://dashboard.kamui-platform.com/en/documents/spec-price-overview |
 
-The form prefilled the contact email from the signed-in account; it was left unchanged and is not copied into this public document. Owner is a disabled field and the form displays “Submitting as an individual.” The organization display fields do not change the underlying account owner. The form states that clicking Submit Application acknowledges agreement to the Publisher Terms; no acceptance has been submitted.
+The contact email was explicitly supplied by the owner and entered in the private application; it is not copied into this public document. Owner is a disabled field and the form displays “Submitting as an individual.” The organization display fields do not change the underlying account owner. The form states that clicking Submit Application acknowledges agreement to the Publisher Terms; no acceptance has been submitted.
 
 ## Short description
 
 Inspect apps, deployment status, and logs, and deploy GitHub-backed apps on KamuiDash.
 
-## Submitted-form description draft
+## Prepared form description
+
+The form description starts with a company-submission note naming **シムディ合同会社** and the owner-approved review contact email. The contact address is omitted from this public copy.
 
 KamuiDash connects Cursor to the apps you own on KamuiDash through a remote MCP server. Inspect projects, apps, deployment status, and logs; discover connected GitHub repositories and branches; and, with explicit confirmation, deploy or update apps, create databases, or configure custom domains.
 
@@ -55,3 +57,9 @@ No Cursor demo video has been recorded for this package. Prior tests in other MC
 ## Final submission
 
 The inspected form requests Organization name, Organization handle, Contact email, Logotype URL, Description, GitHub repository, and Website URL, and displays a fixed Owner. It does not currently show a demo-video or reviewer-credentials field. Review all values and the [Publisher Terms](https://cursor.com/marketplace-publisher-terms) before submission. Cursor-specific end-to-end checks remain pending. This draft does not accept terms or submit an application.
+
+## Company submission and fixed Owner field
+
+The owner requested submission for **シムディ合同会社**. Organization name and the plugin manifest author use that exact name. The description explicitly states that the company is submitting KamuiDash. The fixed Owner field still shows the signed-in individual account; entering a company name does not change account ownership.
+
+Cursor staff recommended identifying the company and preferred contact in the description when the form cannot switch Owner to a company. See the [official forum response](https://forum.cursor.com/t/cursor-plugin-submit-as-company-not-individual/156274). The form remains unsubmitted.

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Inspect apps, deployment status, and logs, and deploy GitHub-backed apps on KamuiDash.",
   "author": {
-    "name": "Kamui"
+    "name": "シムディ合同会社"
   },
   "homepage": "https://dashboard.kamui-platform.com/",
   "repository": "https://github.com/kamui-project/kamuidash-cursor",

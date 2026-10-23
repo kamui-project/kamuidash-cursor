@@ -36,7 +36,7 @@ These observations do not validate client registration, browser consent, token e
 
 ## Application and local environment
 
-On 2026-10-23 JST, the owner completed Cursor sign-in and the publisher application was inspected and filled up to the final Submit Application button. The contact email remained as prefilled; the fixed Owner is an individual account. No server-side draft saving is confirmed. No application or terms acceptance has been submitted. See the application draft for the prepared public field values.
+On 2026-10-23 JST, the owner completed Cursor sign-in and the publisher application was inspected and filled up to the final Submit Application button. The organization name and plugin author are シムディ合同会社; the description identifies this as a company submission with the owner-approved contact email. The fixed Owner remains an individual account. No server-side draft saving is confirmed. No application or terms acceptance has been submitted. See the application draft for the prepared public field values.
 
 No Cursor application was found in `/Applications` or the user's `Applications` directory during preparation. This does not rule out another installation location. Local plugin execution has not been attempted.
 
