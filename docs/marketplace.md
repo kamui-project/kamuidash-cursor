@@ -14,7 +14,7 @@ Submission status: **Submitted; receipt confirmed on 2026-10-23 JST.** The page 
 
 - [x] Cursor-format manifest at `.cursor-plugin/plugin.json`.
 - [x] Remote MCP definition at the repository root (`mcp.json`).
-- [x] Square logo with a white background plate committed at `assets/marketplace-logo.svg` and referenced by relative path. The PNG at `assets/logo.png` is the existing 96 × 96 logo used by the Kamui landing page and documentation, copied without changes. The SVG icon paths and colors match the existing landing-page vector logo.
+- [x] Square logo with a white background plate committed at `assets/marketplace-logo.svg` and referenced by relative path. The PNG at `assets/logo.png` is rendered at 1024 × 1024 directly from `assets/logo.svg`, which preserves the two icon paths and colors from the landing-page SVG. The older 96 × 96 raster asset had a left-shifted inner mark and is not used. The marketplace SVG uses the same original icon paths with a white background plate.
 - [x] English and Japanese setup, account requirements, pricing, and troubleshooting documentation.
 - [x] MIT license for the plugin files.
 - [x] No credentials or private account/project identifiers included.
